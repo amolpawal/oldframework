@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="loginSuite">
+
+  <test name="TC_Defaultlogin">
+		<classes>
+			<class name="testcases.login.TC_DefaultLogin" />
+		</classes>
+	</test>
+	
+	
+	 <test name="TC_Dashboard_Provider_Count">
+		<classes>
+			<class name="testcases.dashboard.provider.Dashboard_Provider_Count" />
+		</classes>
+	</test>
+	
+	<!-- <test name="TC_PracticeMeasureCountNR">
+		<classes>
+			<class name="testcases.dashboard.practice.nonRolling.TC_PracticeMeasureCountNR" />
+		</classes>
+	</test> -->
+	
+	
+<!-- 			<test name="TC_SelectingMeasureSet"> -->
+<!-- 		<classes>  -->
+<!-- 	<class name="testcases.dashboard.measureset.TC_SelectingMeasureSet" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 		<test name="Check Copyright year"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.measureset.TC_VerifyCopyRightYear" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+
+<!-- 		<test name="Check Copyright tabs Available "> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.measureset.TC_VerifyCopyRightTabs" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+	
+<!-- 	<test name="TC_LocationBubbleCountNR"> -->
+<!-- 		<classes>  -->
+<!-- 	<class name="testcases.dashboard.location.locationList.nonRolling.TC_LocationBubbleCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+<!-- 		<test name="TC_LocationBubbleCountR"> -->
+<!-- 		<classes>  -->
+<!-- 	<class name="testcases.dashboard.location.locationList.rolling.TC_LocationBubbleCountR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 		<test name="PracticePerformanceTrendPatientDrillDownCountR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.rolling.TC_PracticePerformanceTrendPatientDrillDownCountR" /> -->
+<!-- 		</classes>  -->
+<!-- 	</test>		 -->
+		
+<!-- 	<test name="PracticePerformancrTrendPatientDrillDownCountNR"> -->
+	
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.nonRolling.TC_PracticePerformanceTrendPatientDrillDownCountNR" /> -->
+<!-- 		</classes>  -->
+<!-- 	</test> -->
+
+<!-- <test name="TC_PracticeAllProvidersPopUpCountR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.rolling.TC_PracticeAllProvidersPopUpCountR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 		<test name="TC_PracticeAllProvidersPopUpCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.nonRolling.TC_PracticeAllProvidersPopUpCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+		<!-- <test name="TC_ProviderCountR">
+		<classes>
+			<class name="testcases.dashboard.provider.rolling.TC_ProviderCountR" />
+		</classes>
+	</test> -->
+	
+<!-- 			<test name="TC_ProviderCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.provider.nonrolling.TC_ProviderCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 	<test name="TC_ProviderPatientDrillDownCountR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.provider.rolling.TC_ProviderPatientDrillDownCountR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	<test name="TC_ProviderPatientDrillDownCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.provider.nonrolling.TC_ProviderPatientDrillDownCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 	<test name="TC_PracticeMeasuresWithHigherScore"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.practiceMeasureGrid.TC_PracticeMeasuresWithHigherScore" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 			<test name="TC_PracticeMeasuresWithLowerScore"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.practiceMeasureGrid.TC_PracticeMeasuresWithLowerScore" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 	<test name="TC_PMCountOfHigherScore"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.practiceMeasureGrid.TC_PMCountOfHigherScore" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+
+
+	
+<!-- 	<test name="TC_PMCountOfLowerScore"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.practiceMeasureGrid.TC_PMCountOfLowerScore" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 	<test name="TC_PracticeLocationPopUpCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.nonRolling.TC_PracticeLocationPopUpCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+<!-- 		  <test name="TC_PracticeLocationPopUpCountR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.rolling.TC_PracticeLocationPopUpCountR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 			<test name="TC_PracticeProvidersPopUpCountR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.rolling.TC_PracticeProvidersPopUpCountR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 			<test name="TC_PracticeProvidersPopUpCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.nonRolling.TC_PracticeProvidersPopUpCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+
+
+<!-- 		<test name="TC_VerifyLastUpdatedDate"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.practiceMeasureGrid.TC_VerifyLastUpdatedDate" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 	  <test name="TC_PracticeProvidersPatientDrillDownCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.nonRolling.TC_PracticeAllProvidersPatientDrillDownCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+
+
+
+<!-- 	   <test name="TC_VerifyMeasureSetDropdownWithActiveMeasureSet"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.newsmoke.practice.TC_VerifyMeasureSetDropdownWithActiveMeasureSet" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	 
+<!-- 	 <test name="TC_CrossCuttingMeasuresForMeasureSet2018"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.newsmoke.practice.TC_CrossCuttingMeasuresForMeasureSet2018" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>   -->
+		
+<!-- 	  <test name="TC_OutComeMeasuresForMeasureSet2018"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.newsmoke.practice.TC_OutComeMeasuresForMeasureSet2018" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>   -->
+	
+<!-- 	  <test name="TC_VerifyMeasureNameHeaderPerformaceTDrillDownHeaderMeasure"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.newsmoke.practice.TC_VerifyMeasureNameHeaderPerformaceTDrillDownHeaderMeasure" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>   -->
+	
+	
+<!-- 	<test name="TC_VerifyHeaderDetailsforPatientDDWhenOpenedForProvider"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.newsmoke.practice.TC_VerifyMeasureNameHeaderPerformaceTDrillDownHeaderProvider" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+
+<!-- 	 <test name="TC_VerifyMeasureNameHeaderPerformaceTDrillDownHeaderPractice"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.newsmoke.practice.TC_VerifyMeasureNameHeaderPerformaceTDrillDownHeaderPractice" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>   -->
+	
+<!-- 	 <test name="TC_VerifyRegistryAvgOnPerformanceTrendModalForPractice"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.newsmoke.practice.TC_VerifyRegistryAvgOnPerformanceTrendModalForPractice" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+	
+<!-- 	  <test name="TC_VerifytooltipAgainstMeasures"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.newsmoke.practice.TC_VerifytooltipAgainstMeasures" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>   -->
+	
+	
+	
+	
+	
+	
+<!-- 	  <test name="TC_PracticeMeasureCountR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.rolling.TC_PracticeMeasureCountR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	 <test name="TC_PracticeMeasureCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.nonRolling.TC_PracticeMeasureCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 	  <test name="TC_PracticeFavoritesMeasureCountR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.rolling.TC_PracticeFavoritesMeasureCountR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+		
+<!-- 	<test name="TC_PracticeFavoritesMeasureCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.nonRolling.TC_PracticeFavoritesMeasureCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>     -->
+	
+	
+<!-- 	 <test name="TC_DetailedPatientDrillDownCountR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.provider.rolling.TC_DetailedPatientDrillDownCountR" /> -->
+<!-- 		</classes> -->
+<!-- 		</test>  -->
+	
+	
+	
+<!-- 	<test name="TC_DetailedPatientDrillDownCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>     -->
+	
+
+
+	
+	
+	
+
+
+
+	
+
+
+	
+	
+	
+	
+	</suite>			
+	
+	

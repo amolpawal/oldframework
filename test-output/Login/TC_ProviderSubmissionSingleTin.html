@@ -1,0 +1,1918 @@
+<html>
+<head>
+<title>TestNG:  TC_ProviderSubmissionSingleTin</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_ProviderSubmissionSingleTin</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/51/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 30 16:26:40 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>11673 seconds (11673397 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=93176, NPI=1497795686, submenu=Provider, ProviderName=, TinValue=354347398, PracticeName=John F Anderschat MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1410145533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1410145533'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>222</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=432983, NPI=1942251095, submenu=Provider, ProviderName=, TinValue=77481618, PracticeName=John G Bortz MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2074678503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2074678503'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>207</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=360957, NPI=1669455036, submenu=Provider, ProviderName=, TinValue=730764194, PracticeName=John R Gearhart MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace990184350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace990184350'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>221</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=82657, NPI=1003903071, submenu=Provider, ProviderName=, TinValue=382112570, PracticeName=Macomb Eye Care Specialists, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace64956478", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace64956478'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>197</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=122052, NPI=1174508774, submenu=Provider, ProviderName=, TinValue=550619714, PracticeName=Minardi Eye Center, Inc., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2002715417", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2002715417'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>207</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=432208, NPI=1245541671, submenu=Provider, ProviderName=, TinValue=813634016, PracticeName=New York Retina Consultants PLLC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace696253095", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace696253095'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>210</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=432208, NPI=1437180775, submenu=Provider, ProviderName=, TinValue=813634016, PracticeName=New York Retina Consultants PLLC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace801349873", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace801349873'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>197</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=33650, NPI=1083688642, submenu=Provider, ProviderName=, TinValue=770581009, PracticeName=Raghunand C Sastry MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2035335745", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2035335745'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>206</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=70191, NPI=1053321026, submenu=Provider, ProviderName=, TinValue=470837459, PracticeName=Randall W Dotson, MD, PC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2038829402", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2038829402'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>220</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=46026, NPI=1962446690, submenu=Provider, ProviderName=, TinValue=223807798, PracticeName=Retina Care Center, PC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1027692837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1027692837'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>217</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=76435, NPI=1477557247, submenu=Provider, ProviderName=, TinValue=471424576, PracticeName=Reynolds & Anliker Eye Physicians & Surgeons, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1529413139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1529413139'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>211</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=76435, NPI=1760486526, submenu=Provider, ProviderName=, TinValue=471424576, PracticeName=Reynolds & Anliker Eye Physicians & Surgeons, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace400264410", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace400264410'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>225</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=42642, NPI=1437298189, submenu=Provider, ProviderName=, TinValue=66460226, PracticeName=Richard B. Weber, MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace766816540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace766816540'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>202</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=348803, NPI=1043219900, submenu=Provider, ProviderName=, TinValue=133101269, PracticeName=Richard D Lisman MD FACS, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace798830891", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace798830891'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>203</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=136273, NPI=1710033980, submenu=Provider, ProviderName=, TinValue=650600489, PracticeName=Richard K. Marschner, Jr., MD, PA, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1324686301", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1324686301'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>209</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=209939, NPI=1912997891, submenu=Provider, ProviderName=, TinValue=383004459, PracticeName=Robert A Sklar MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1027507843", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1027507843'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>210</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=45323, NPI=1912015231, submenu=Provider, ProviderName=, TinValue=51248387, PracticeName=Robert A. D'Amico, MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1561946928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1561946928'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>199</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=122199, NPI=1922007038, submenu=Provider, ProviderName=, TinValue=731631297, PracticeName=Sai B Gandham MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1183563572", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1183563572'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>208</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=248594, NPI=1871622258, submenu=Provider, ProviderName=, TinValue=460670915, PracticeName=Senior Health Services, LLC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace54343101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace54343101'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>204</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=60609, NPI=1598779209, submenu=Provider, ProviderName=, TinValue=710679889, PracticeName=Southern Eye Associates, Ltd., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1898384436", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1898384436'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>206</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=60609, NPI=1699969634, submenu=Provider, ProviderName=, TinValue=710679889, PracticeName=Southern Eye Associates, Ltd., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1111187117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1111187117'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>219</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=60609, NPI=1972569036, submenu=Provider, ProviderName=, TinValue=710679889, PracticeName=Southern Eye Associates, Ltd., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1058778673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1058778673'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>217</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=444546, NPI=1881636496, submenu=Provider, ProviderName=, TinValue=339502978, PracticeName=Spectrum Medical Mgmt Physicians Network, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1363402770", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1363402770'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>205</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=124086, NPI=1104800143, submenu=Provider, ProviderName=, TinValue=113190652, PracticeName=Stephen C Kaufman MD PhD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1874239327", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1874239327'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>202</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=124086, NPI=1609859123, submenu=Provider, ProviderName=, TinValue=113190652, PracticeName=Stephen C Kaufman MD PhD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1520001036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1520001036'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>206</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=124086, NPI=1659578789, submenu=Provider, ProviderName=, TinValue=113190652, PracticeName=Stephen C Kaufman MD PhD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1732314434", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1732314434'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>202</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=124086, NPI=1720062037, submenu=Provider, ProviderName=, TinValue=113190652, PracticeName=Stephen C Kaufman MD PhD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1677577756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1677577756'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>200</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=124086, NPI=1780645473, submenu=Provider, ProviderName=, TinValue=113090652, PracticeName=Stephen C Kaufman MD PhD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace704070602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace704070602'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>204</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=449313, NPI=1578621017, submenu=Provider, ProviderName=, TinValue=840765768, PracticeName=Stephen E Kesselman MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace895670644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace895670644'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>194</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=136252, NPI=1154412070, submenu=Provider, ProviderName=, TinValue=311460495, PracticeName=Stephen P Schumann MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1888105727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1888105727'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>196</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=136252, NPI=1578527461, submenu=Provider, ProviderName=, TinValue=311460495, PracticeName=Stephen P Schumann MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1914531400", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1914531400'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>200</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=60641, NPI=1750373403, submenu=Provider, ProviderName=, TinValue=341295194, PracticeName=Surgical Eye Care Center, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace968345266", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace968345266'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>211</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=40407, NPI=1508009754, submenu=Provider, ProviderName=, TinValue=351487709, PracticeName=Taustine Eye Center, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1086019393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1086019393'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>197</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=75710, NPI=1497834048, submenu=Provider, ProviderName=, TinValue=911849816, PracticeName=Teresa R Graham MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1351254782", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1351254782'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>219</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=227844, NPI=1508837915, submenu=Provider, ProviderName=, TinValue=261510773, PracticeName=The Woodlands Retina Center, PA, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace771608190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace771608190'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>215</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=45319, NPI=1922079995, submenu=Provider, ProviderName=, TinValue=381874376, PracticeName=Tukel-Kozlow Eye Center, PC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1397467901", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1397467901'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>222</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=75723, NPI=1346224201, submenu=Provider, ProviderName=, TinValue=273383662, PracticeName=Umpqua Valley Eye Assoc, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1696740673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1696740673'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>214</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=75723, NPI=1487636825, submenu=Provider, ProviderName=, TinValue=273383662, PracticeName=Umpqua Valley Eye Assoc, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace45738984", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace45738984'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>196</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=45736, NPI=1437169042, submenu=Provider, ProviderName=, TinValue=541780361, PracticeName=Venkat Reddy/Retina Group of Tidewater, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1250286861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1250286861'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>200</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=42057, NPI=1518935675, submenu=Provider, ProviderName=, TinValue=234823444, PracticeName=William D. Strauch, MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace763255812", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace763255812'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>210</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=45822, NPI=1427132653, submenu=Provider, ProviderName=, TinValue=112574600, PracticeName=Woodmere Ophthalmology, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1304391767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1304391767'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>198</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=425930, NPI=1265416697, submenu=Provider, ProviderName=, TinValue=431212248, PracticeName=Tekwani Vision Center, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1831216162", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1831216162'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>197</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=425930, NPI=1538143805, submenu=Provider, ProviderName=, TinValue=431212248, PracticeName=Tekwani Vision Center, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace373929155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace373929155'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>196</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=425930, NPI=1922395854, submenu=Provider, ProviderName=, TinValue=431212248, PracticeName=Tekwani Vision Center, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace626296453", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace626296453'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>211</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=38579, NPI=1912986951, submenu=Provider, ProviderName=, TinValue=522137675, PracticeName=Andrew J. Wherley, MD, Ltd., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1027773781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1027773781'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>189</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=74947, NPI=1568548972, submenu=Provider, ProviderName=, TinValue=990317991, PracticeName=Crane Eye Care, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace330101826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace330101826'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>203</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=152811, NPI=1235163361, submenu=Provider, ProviderName=, TinValue=60932141, PracticeName=NORWICH OPHTHALMOLOGY GROUP, P.C., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace292733755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace292733755'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>198</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=152811, NPI=1528092657, submenu=Provider, ProviderName=, TinValue=60932141, PracticeName=NORWICH OPHTHALMOLOGY GROUP, P.C., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1246357532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1246357532'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>192</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=152811, NPI=1699893545, submenu=Provider, ProviderName=, TinValue=60932141, PracticeName=NORWICH OPHTHALMOLOGY GROUP, P.C., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace247011121", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace247011121'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>199</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=152811, NPI=1881623486, submenu=Provider, ProviderName=, TinValue=60932141, PracticeName=NORWICH OPHTHALMOLOGY GROUP, P.C., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace253812205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace253812205'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>197</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=60363, NPI=1912962465, submenu=Provider, ProviderName=, TinValue=412186436, PracticeName=Thomas A. Perkowski, DO, Ltd., menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1009386662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1009386662'><pre>java.lang.AssertionError: Step 19	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_SubmissionSingleTin.testBlankPassword(TC_SubmissionSingleTin.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>199</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=42055, NPI=1457442915, submenu=Provider, ProviderName=, TinValue=592561376, PracticeName=VIRGIL SKLAR, menu=MIPS}</td>
+<td></td>
+<td>183</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=35439, NPI=1568487676, submenu=Provider, ProviderName=, TinValue=592718647, PracticeName=Aker Kasten Eye Center, menu=MIPS}</td>
+<td></td>
+<td>191</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=35439, NPI=1841269669, submenu=Provider, ProviderName=, TinValue=592718647, PracticeName=Aker Kasten Eye Center, menu=MIPS}</td>
+<td></td>
+<td>186</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=399827, NPI=1316937709, submenu=Provider, ProviderName=, TinValue=42841766, PracticeName=Peter Lou MD PC, menu=MIPS}</td>
+<td></td>
+<td>184</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=74939, NPI=1922093988, submenu=Provider, ProviderName=, TinValue=621781164, PracticeName=Robert E Price MD, menu=MIPS}</td>
+<td></td>
+<td>177</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_SubmissionSingleTin.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_SubmissionSingleTin<br>Parameters: {PracticeID=44054, NPI=1114946555, submenu=Provider, ProviderName=, TinValue=208826196, PracticeName=Seattle Opthalmology, PLLC, menu=MIPS}</td>
+<td></td>
+<td>182</td>
+<td>testcases.mips.TC_SubmissionSingleTin@2a54a73f</td></tr>
+</table><p>
+</body>
+</html>

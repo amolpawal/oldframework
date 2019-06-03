@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [loginSuite]">
+  <test name="TC_Dashboard_Provider_Count(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.Dashboard_Provider_Count">
+        <methods>
+          <include name="providercount"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.Dashboard_Provider_Count -->
+      <class name="testcases.login.TC_DefaultLogin">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.login.TC_DefaultLogin -->
+    </classes>
+  </test> <!-- TC_Dashboard_Provider_Count(failed) -->
+</suite> <!-- Failed suite [loginSuite] -->

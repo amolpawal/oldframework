@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="loginSuite" duration-ms="29941" started-at="2018-09-01T08:40:35Z" finished-at="2018-09-01T08:41:05Z">
+    <groups>
+      <group name="LoginGroup">
+        <method signature="TC_DefaultLogin.testBlankPassword(java.util.Hashtable)[pri:0, instance:testcases.login.TC_DefaultLogin@6ea12c19]" name="testBlankPassword" class="testcases.login.TC_DefaultLogin"/>
+      </group> <!-- LoginGroup -->
+    </groups>
+    <test name="TC_Defaultlogin" duration-ms="29874" started-at="2018-09-01T08:40:35Z" finished-at="2018-09-01T08:41:05Z">
+      <class name="testcases.login.TC_DefaultLogin">
+        <test-method status="PASS" signature="testBlankPassword(java.util.Hashtable)[pri:0, instance:testcases.login.TC_DefaultLogin@6ea12c19]" name="testBlankPassword" duration-ms="26321" started-at="2018-09-01T14:10:39Z" data-provider="TC_AutoLogin" finished-at="2018-09-01T14:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{start_in=, login_pass=**********, login_user=practice.admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankPassword -->
+      </class> <!-- testcases.login.TC_DefaultLogin -->
+    </test> <!-- TC_Defaultlogin -->
+    <test name="TC_Dashboard_Provider_Count" duration-ms="13" started-at="2018-09-01T08:41:05Z" finished-at="2018-09-01T08:41:05Z">
+      <class name="testcases.login.TC_DefaultLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.login.TC_DefaultLogin@6ea12c19]" name="setup" is-config="true" duration-ms="12571" started-at="2018-09-01T14:10:22Z" finished-at="2018-09-01T14:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="trans_report()[pri:0, instance:testcases.login.TC_DefaultLogin@6ea12c19]" name="trans_report" is-config="true" duration-ms="5309" started-at="2018-09-01T14:11:05Z" finished-at="2018-09-01T14:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trans_report -->
+      </class> <!-- testcases.login.TC_DefaultLogin -->
+      <class name="testcases.dashboard.provider.Dashboard_Provider_Count">
+        <test-method status="SKIP" signature="providercount(java.util.Hashtable)[pri:0, instance:testcases.dashboard.provider.Dashboard_Provider_Count@5419f379]" name="providercount" duration-ms="0" started-at="2018-09-01T14:11:05Z" data-provider="ProviderCount_DataProvider" finished-at="2018-09-01T14:11:05Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:150)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- providercount -->
+      </class> <!-- testcases.dashboard.provider.Dashboard_Provider_Count -->
+    </test> <!-- TC_Dashboard_Provider_Count -->
+  </suite> <!-- loginSuite -->
+</testng-results>

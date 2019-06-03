@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login]">
+  <test name="TC_LocationBubbleCountNR(failed)">
+    <classes>
+      <class name="testcases.dashboard.location.locationList.nonRolling.TC_LocationBubbleCountNR">
+        <methods>
+          <include name="TC_AllMeasures" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.location.locationList.nonRolling.TC_LocationBubbleCountNR -->
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+    </classes>
+  </test> <!-- TC_LocationBubbleCountNR(failed) -->
+  <test name="TC_LocationBubbleCountR(failed)">
+    <classes>
+      <class name="testcases.dashboard.location.locationList.rolling.TC_LocationBubbleCountR">
+        <methods>
+          <include name="TC_AllMeasures" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.location.locationList.rolling.TC_LocationBubbleCountR -->
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+    </classes>
+  </test> <!-- TC_LocationBubbleCountR(failed) -->
+  <test name="TC_PracticeAllProvidersPopUpCountR(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+      <class name="testcases.dashboard.practice.rolling.TC_PracticeAllProvidersPopUpCountR">
+        <methods>
+          <include name="TC_AllMeasures" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.practice.rolling.TC_PracticeAllProvidersPopUpCountR -->
+    </classes>
+  </test> <!-- TC_PracticeAllProvidersPopUpCountR(failed) -->
+  <test name="TC_PracticeAllProvidersPopUpCountNR(failed)">
+    <classes>
+      <class name="testcases.dashboard.practice.nonRolling.TC_PracticeAllProvidersPopUpCountNR">
+        <methods>
+          <include name="TC_AllMeasures" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.practice.nonRolling.TC_PracticeAllProvidersPopUpCountNR -->
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+    </classes>
+  </test> <!-- TC_PracticeAllProvidersPopUpCountNR(failed) -->
+  <test name="TC_ProviderCountR(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.rolling.TC_ProviderCountR">
+        <methods>
+          <include name="startTestCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.rolling.TC_ProviderCountR -->
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+    </classes>
+  </test> <!-- TC_ProviderCountR(failed) -->
+  <test name="TC_ProviderCountNR(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+      <class name="testcases.dashboard.provider.nonrolling.TC_ProviderCountNR">
+        <methods>
+          <include name="startTestCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_ProviderCountNR -->
+    </classes>
+  </test> <!-- TC_ProviderCountNR(failed) -->
+  <test name="TC_ProviderPatientDrillDownCountNR(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.nonrolling.TC_ProviderPatientDrillDownCountNR">
+        <methods>
+          <include name="startTestCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_ProviderPatientDrillDownCountNR -->
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+    </classes>
+  </test> <!-- TC_ProviderPatientDrillDownCountNR(failed) -->
+  <test name="TC_PracticeProvidersPopUpCountR(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+      <class name="testcases.dashboard.practice.rolling.TC_PracticeProvidersPopUpCountR">
+        <methods>
+          <include name="TC_AllMeasures" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.practice.rolling.TC_PracticeProvidersPopUpCountR -->
+    </classes>
+  </test> <!-- TC_PracticeProvidersPopUpCountR(failed) -->
+  <test name="TC_PracticeProvidersPopUpCountNR(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+      <class name="testcases.dashboard.practice.nonRolling.TC_PracticeProvidersPopUpCountNR">
+        <methods>
+          <include name="TC_AllMeasures" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.practice.nonRolling.TC_PracticeProvidersPopUpCountNR -->
+    </classes>
+  </test> <!-- TC_PracticeProvidersPopUpCountNR(failed) -->
+  <test name="TC_DetailedPatientDrillDownCountR(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.rolling.TC_DetailedPatientDrillDownCountR">
+        <methods>
+          <include name="startTestCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.rolling.TC_DetailedPatientDrillDownCountR -->
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+    </classes>
+  </test> <!-- TC_DetailedPatientDrillDownCountR(failed) -->
+  <test name="TC_DetailedPatientDrillDownCountNR(failed)">
+    <classes>
+      <class name="testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+          <include name="startTestCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.dashboard.provider.nonrolling.TC_DetailedPatientDrillDownCountNR -->
+    </classes>
+  </test> <!-- TC_DetailedPatientDrillDownCountNR(failed) -->
+</suite> <!-- Failed suite [Login] -->

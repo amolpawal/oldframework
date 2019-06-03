@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.dashboard.practice.practiceProvider.rolling.TC_PracticeProvidersPatientDrillDownCountR">
+        <methods>
+          <include name="trans_report"/>
+          <include name="setup"/>
+          <include name="TC_PPPatientDrillDown"/>
+        </methods>
+      </class> <!-- testcases.dashboard.practice.practiceProvider.rolling.TC_PracticeProvidersPatientDrillDownCountR -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

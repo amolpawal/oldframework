@@ -1,0 +1,702 @@
+<html>
+<head>
+<title>TestNG:  TC_PracticeSubmissionSingleTin</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_PracticeSubmissionSingleTin</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/13/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 28 22:45:52 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>7304 seconds (7304094 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=414459, submenu=Practice, TinValue=581515266, PracticeName=Atlanta Eye Consultants, PC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1144120651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1144120651'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>200</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=24786, submenu=Practice, TinValue=621745543, PracticeName=Cornea Consultants of Nashville, PLLC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 29	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1645115480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1645115480'><pre>java.lang.AssertionError: Step 29	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>430</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=45710, submenu=Practice, TinValue=272444464, PracticeName=Fillmore Eye Clinic, Inc, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1980481692", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1980481692'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>201</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=414677, submenu=Practice, TinValue=251565747, PracticeName=Glaucoma-Cataract Consultants Inc, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace988536099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace988536099'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>195</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=75707, submenu=Practice, TinValue=272657209, PracticeName=Harrup Kaur, MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2046361721", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2046361721'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>204</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=45739, submenu=Practice, TinValue=731516754, PracticeName=Kimberly M. Wise, MD, PC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace340197698", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace340197698'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>200</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=361630, submenu=Practice, TinValue=550875890, PracticeName=Lillie Mosaddegh MD, Inc, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace458465870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace458465870'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>229</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=93175, submenu=Practice, TinValue=431562642, PracticeName=Lynne G McElhinney MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace211437115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace211437115'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>202</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=368011, submenu=Practice, TinValue=20713102, PracticeName=Mark Harooni MD, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1226807850", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1226807850'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>215</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=95375, submenu=Practice, TinValue=952749315, PracticeName=MARSHBURN EYE CENTER, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace373279611", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace373279611'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>198</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=60415, submenu=Practice, TinValue=221869593, PracticeName=New Jersey Regional Eye Care, PA, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1361093973", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1361093973'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>203</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=122192, submenu=Practice, TinValue=270065644, PracticeName=North Texas Ophthalmic Plastic Surgery, PLLC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace466172262", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace466172262'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>196</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=93151, submenu=Practice, TinValue=251190184, PracticeName=Paul R Rosenberg MD FACS, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace571368122", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace571368122'><pre>java.lang.AssertionError: Step 16	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:336)
+	at testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures(TC_PracticeReSubmissionSingleTin.java:28)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>206</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=362399, submenu=Practice, TinValue=954623874, PracticeName=Assil Eye Institute, menu=MIPS}</td>
+<td></td>
+<td>101</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=227782, submenu=Practice, TinValue=330745296, PracticeName=Astorino & Assoc, menu=MIPS}</td>
+<td></td>
+<td>218</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=38588, submenu=Practice, TinValue=680078903, PracticeName=Barbara J. Arnold, MD, FACS, menu=MIPS}</td>
+<td></td>
+<td>229</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=33778, submenu=Practice, TinValue=650449441, PracticeName=Beraja Medical Institute, menu=MIPS}</td>
+<td></td>
+<td>115</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=122221, submenu=Practice, TinValue=911853096, PracticeName=Contra Costa Eye Medical Ctr Inc, menu=MIPS}</td>
+<td></td>
+<td>97</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=30653, submenu=Practice, TinValue=820354461, PracticeName=Drs. Welch, Allan and Associates, menu=MIPS}</td>
+<td></td>
+<td>163</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=424740, submenu=Practice, TinValue=202808972, PracticeName=Edward P. Langlow MD APMC, menu=MIPS}</td>
+<td></td>
+<td>132</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=38628, submenu=Practice, TinValue=954803239, PracticeName=EYE CARE MEDICAL CENTER, menu=MIPS}</td>
+<td></td>
+<td>105</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=43569, submenu=Practice, TinValue=760154788, PracticeName=Eye Physicians of North Houston, menu=MIPS}</td>
+<td></td>
+<td>156</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=84272, submenu=Practice, TinValue=223393270, PracticeName=Eye Physicians, PC, menu=MIPS}</td>
+<td></td>
+<td>96</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=375413, submenu=Practice, TinValue=43702949, PracticeName=Halpern Medical Services, LLC, menu=MIPS}</td>
+<td></td>
+<td>165</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=33577, submenu=Practice, TinValue=541900987, PracticeName=James River Eye Physicians, PC, menu=MIPS}</td>
+<td></td>
+<td>201</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=60512, submenu=Practice, TinValue=231998137, PracticeName=Lebanon Ophthalmic Associates, menu=MIPS}</td>
+<td></td>
+<td>158</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=457437, submenu=Practice, TinValue=271472833, PracticeName=Macula & Retina, P.C., menu=MIPS}</td>
+<td></td>
+<td>164</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=60544, submenu=Practice, TinValue=770508138, PracticeName=Ngoc Nguyen, MD, Inc., menu=MIPS}</td>
+<td></td>
+<td>161</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=43838, submenu=Practice, TinValue=820448111, PracticeName=NORTH IDAHO EYE INSTITUTE, menu=MIPS}</td>
+<td></td>
+<td>93</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=37919, submenu=Practice, TinValue=270062108, PracticeName=Ophthalmic Consultants of Vermont, menu=MIPS}</td>
+<td></td>
+<td>97</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=322300, submenu=Practice, TinValue=510595464, PracticeName=Ophthalmic Specialists Group, LLC, menu=MIPS}</td>
+<td></td>
+<td>160</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=33637, submenu=Practice, TinValue=310748960, PracticeName=Ophthalmic Surgeons & Consultants of Ohio, menu=MIPS}</td>
+<td></td>
+<td>150</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=60729, submenu=Practice, TinValue=592433360, PracticeName=Paul D. Rosenblum, M.D., menu=MIPS}</td>
+<td></td>
+<td>162</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=74949, submenu=Practice, TinValue=300841132, PracticeName=Peninsula Laser Eye Medical Group, menu=MIPS}</td>
+<td></td>
+<td>118</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=45339, submenu=Practice, TinValue=954402590, PracticeName=Reingold Eye Center, menu=MIPS}</td>
+<td></td>
+<td>99</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=150810, submenu=Practice, TinValue=351723470, PracticeName=Retina Associates P.C., menu=MIPS}</td>
+<td></td>
+<td>158</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=283456, submenu=Practice, TinValue=953511595, PracticeName=Retina Consultants - San Diego, menu=MIPS}</td>
+<td></td>
+<td>159</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=309770, submenu=Practice, TinValue=870544230, PracticeName=Rocky Mountain Eye Associates, menu=MIPS}</td>
+<td></td>
+<td>216</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=421221, submenu=Practice, TinValue=742613274, PracticeName=Southwest Texas Eyecare Assoc, menu=MIPS}</td>
+<td></td>
+<td>100</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=46446, submenu=Practice, TinValue=541591286, PracticeName=Stephanie Marioneaux, MD, PC, menu=MIPS}</td>
+<td></td>
+<td>164</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=408805, submenu=Practice, TinValue=953668931, PracticeName=Stephen C Dinsmore MD, menu=MIPS}</td>
+<td></td>
+<td>159</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=38740, submenu=Practice, TinValue=60857103, PracticeName=Thames Eye Group, PC, menu=MIPS}</td>
+<td></td>
+<td>92</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=38747, submenu=Practice, TinValue=454527794, PracticeName=Vance Thompson Vision, menu=MIPS}</td>
+<td></td>
+<td>101</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_PracticeReSubmissionSingleTin.TC_AllMeasures()'><b>TC_AllMeasures</b><br>Test class: testcases.mips.TC_PracticeReSubmissionSingleTin<br>Parameters: {PracticeID=68735, submenu=Practice, TinValue=954016055, PracticeName=Vitreo-Retinal Associate Medical Group, menu=MIPS}</td>
+<td></td>
+<td>97</td>
+<td>testcases.mips.TC_PracticeReSubmissionSingleTin@2a54a73f</td></tr>
+</table><p>
+</body>
+</html>

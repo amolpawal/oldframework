@@ -1,0 +1,1137 @@
+<html>
+<head>
+<title>TestNG:  TC_ProviderSaveQuality</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_ProviderSaveQuality</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>196/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 29 14:35:55 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>19639 seconds (19639428 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33766, NPI=1831176312, submenu=Provider, TinValue=010501479, ProviderName=Graichen, Dana, PracticeName=Northeast Retina Associates, PA, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 17	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_Stale.testBlankPassword(TC_Stale.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1439939870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1439939870'><pre>java.lang.AssertionError: Step 17	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_Stale.testBlankPassword(TC_Stale.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>218</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60427, NPI=1255334116, submenu=Provider, TinValue=043419566, ProviderName=Hulseberg,Kevin, PracticeName=Pioneer Valley Eye Associates, PC, menu=MIPS}</td>
+<td><div><pre>java.lang.AssertionError: Step 17	Action: verifyelement	Status: Fail
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_Stale.testBlankPassword(TC_Stale.java:24)
+	at TestNGLoader.Loader.main(Loader.java:60)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace77858246", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace77858246'><pre>java.lang.AssertionError: Step 17	Action: verifyelement	Status: Fail
+	at org.testng.Assert.fail(Assert.java:94)
+	at buisness.frameworkengine.TestExecutor.testexecute(TestExecutor.java:337)
+	at testcases.mips.TC_Stale.testBlankPassword(TC_Stale.java:24)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at TestNGLoader.Loader.main(Loader.java:60)
+</pre></div></td>
+<td>198</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1073774774, submenu=Provider, TinValue=231876291, ProviderName=Nagarsheth,Mehul, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>115</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1821094137, submenu=Provider, TinValue=231876291, ProviderName=Hornberger, Dawn, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>105</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1407836851, submenu=Provider, TinValue=231876291, ProviderName=Dietterick, Gary, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>96</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1578543781, submenu=Provider, TinValue=231876291, ProviderName=Goldberg,David, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>110</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1518947803, submenu=Provider, TinValue=231876291, ProviderName=Wenders, Denis, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1528387438, submenu=Provider, TinValue=231876291, ProviderName=Shaw,Justin, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>108</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1740417252, submenu=Provider, TinValue=231876291, ProviderName=Shah,Kevin, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>103</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1922088590, submenu=Provider, TinValue=231876291, ProviderName=Brodsky, Leslie, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>115</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1972582633, submenu=Provider, TinValue=231876291, ProviderName=Kenney,Lawrence, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>108</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1437146750, submenu=Provider, TinValue=231876291, ProviderName=Miller, Martin, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>114</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1245376755, submenu=Provider, TinValue=231876291, ProviderName=Hu,Yun, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>91</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1588610240, submenu=Provider, TinValue=231876291, ProviderName=Barrett,Helga, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1619204112, submenu=Provider, TinValue=231876291, ProviderName=Cho, Jennifer, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1720219454, submenu=Provider, TinValue=231876291, ProviderName=Nemani,Abhishek, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>107</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1275670291, submenu=Provider, TinValue=231876291, ProviderName=Cusick,Michael, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>97</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1851686331, submenu=Provider, TinValue=231876291, ProviderName=Traband,Anastasia, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>98</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1386862316, submenu=Provider, TinValue=231876291, ProviderName=Malstrom,Michael, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>127</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1184604845, submenu=Provider, TinValue=231876291, ProviderName=Malloy,Barry, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>102</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1487634143, submenu=Provider, TinValue=231876291, ProviderName=Altman,Adam, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>126</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1518937457, submenu=Provider, TinValue=231876291, ProviderName=Primack,Jonathan, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>114</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=26636, NPI=1285049569, submenu=Provider, TinValue=231876291, ProviderName=Wang,Monica, PracticeName=Eye Consultants of Pennsylvania, PC, menu=MIPS}</td>
+<td></td>
+<td>120</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=37773, NPI=1619985066, submenu=Provider, TinValue=200497085, ProviderName=Sterling,Steven L, PracticeName=Steven L. Sterling, MD, PC, menu=MIPS}</td>
+<td></td>
+<td>73</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60445, NPI=1700834512, submenu=Provider, TinValue=561133711, ProviderName=Wood,John H, PracticeName=Chapel Hill Ophthalmology, menu=MIPS}</td>
+<td></td>
+<td>76</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60445, NPI=1588627996, submenu=Provider, TinValue=196527761, ProviderName=Haas,David R, PracticeName=Chapel Hill Ophthalmology, menu=MIPS}</td>
+<td></td>
+<td>83</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1730197807, submenu=Provider, TinValue=911854979, ProviderName=Miranda, Ralph, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>115</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1295819944, submenu=Provider, TinValue=911854979, ProviderName=Dupree,Robert, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>97</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1730328410, submenu=Provider, TinValue=911854979, ProviderName=Mequio,Michael, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>115</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1891703229, submenu=Provider, TinValue=911854979, ProviderName=Hand,Harold E, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>118</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1427138619, submenu=Provider, TinValue=911854979, ProviderName=Wong,Richard Michael, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>143</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1124086269, submenu=Provider, TinValue=911854979, ProviderName=Hsu, Linda, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>125</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1750687000, submenu=Provider, TinValue=911854979, ProviderName=Grewal, Devinder, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>151</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1821173972, submenu=Provider, TinValue=911854979, ProviderName=Pedersen, Robert, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>126</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1861456238, submenu=Provider, TinValue=911854979, ProviderName=Prima, Judith, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>125</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1134232648, submenu=Provider, TinValue=911854979, ProviderName=Canzano,John Christopher, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>127</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1588753909, submenu=Provider, TinValue=911854979, ProviderName=Zeiter,Joseph Tony, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>109</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1588824494, submenu=Provider, TinValue=911854979, ProviderName=Zeiter,Joseph Edmond, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>151</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1447330634, submenu=Provider, TinValue=911854979, ProviderName=Zeiter,John Henry, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>129</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=127812, NPI=1518173749, submenu=Provider, TinValue=911854979, ProviderName=Wood, Steven, PracticeName=Zeiter Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>127</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60383, NPI=1144233347, submenu=Provider, TinValue=200033734, ProviderName=STOCK, CHRISTOPHER, PracticeName=Grand View Ophthalmology, menu=MIPS}</td>
+<td></td>
+<td>112</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=326583, NPI=1528121423, submenu=Provider, TinValue=710975144, ProviderName=OMPHROY,LUIS C, PracticeName=Luis C Omphroy MD, menu=MIPS}</td>
+<td></td>
+<td>110</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=24736, NPI=1942223920, submenu=Provider, TinValue=464188740, ProviderName=Woodward,Kimball P, PracticeName=Orangetown Ophthalmology, LLC, menu=MIPS}</td>
+<td></td>
+<td>81</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=448686, NPI=1891716569, submenu=Provider, TinValue=330927602, ProviderName=JONES,ROBERT LEONARD, PracticeName=Newport Eye Ctr, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=448686, NPI=1891716569, submenu=Provider, TinValue=330927602, ProviderName=JONES,ROBERT LEONARD, PracticeName=Newport Eye Ctr, menu=MIPS}</td>
+<td></td>
+<td>84</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=45831, NPI=1679509269, submenu=Provider, TinValue=452717412, ProviderName=Dacanay,Leonardo, PracticeName=Bellevue Eye Medical Center, menu=MIPS}</td>
+<td></td>
+<td>144</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=80749, NPI=1447262076, submenu=Provider, TinValue=271049276, ProviderName=Gill,Paul, PracticeName=Eye Center of Fort Wayne, menu=MIPS}</td>
+<td></td>
+<td>126</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=80749, NPI=1275545873, submenu=Provider, TinValue=271049276, ProviderName=Parent,John Rex, PracticeName=Eye Center of Fort Wayne, menu=MIPS}</td>
+<td></td>
+<td>126</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=80749, NPI=1144232794, submenu=Provider, TinValue=271049276, ProviderName=Zink,Gregory, PracticeName=Eye Center of Fort Wayne, menu=MIPS}</td>
+<td></td>
+<td>131</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=80749, NPI=1639163710, submenu=Provider, TinValue=271049276, ProviderName=French,James, PracticeName=Eye Center of Fort Wayne, menu=MIPS}</td>
+<td></td>
+<td>109</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=78653, NPI=1578544862, submenu=Provider, TinValue=271851997, ProviderName=WANG,WALTER Q, PracticeName=Eye Consultants & Surgeons, P.C., menu=MIPS}</td>
+<td></td>
+<td>79</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33780, NPI=1598732265, submenu=Provider, TinValue=205888243, ProviderName=Schroeder,Robert P, PracticeName=Retina Services of Illinois, LLC, menu=MIPS}</td>
+<td></td>
+<td>131</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33780, NPI=1902873722, submenu=Provider, TinValue=205888243, ProviderName=Parnell,Jeffrey R., PracticeName=Retina Services of Illinois, LLC, menu=MIPS}</td>
+<td></td>
+<td>123</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33780, NPI=1154656577, submenu=Provider, TinValue=205888243, ProviderName=Palma,Camille V, PracticeName=Retina Services of Illinois, LLC, menu=MIPS}</td>
+<td></td>
+<td>124</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60465, NPI=1972581122, submenu=Provider, TinValue=133056250, ProviderName=Levine,Arnold J, PracticeName=Arnold J Levine MD, menu=MIPS}</td>
+<td></td>
+<td>76</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122128, NPI=1952468761, submenu=Provider, TinValue=222695260, ProviderName=Beyer Jr, William, PracticeName=Beyer Eye Associates, menu=MIPS}</td>
+<td></td>
+<td>111</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122128, NPI=1750713806, submenu=Provider, TinValue=222695260, ProviderName=Beyer, Eric, PracticeName=Beyer Eye Associates, menu=MIPS}</td>
+<td></td>
+<td>117</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122128, NPI=1396181137, submenu=Provider, TinValue=812603151, ProviderName=BEYER,,MARK WILLIAM, PracticeName=Beyer Eye Associates, menu=MIPS}</td>
+<td></td>
+<td>116</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=24188, NPI=1992768345, submenu=Provider, TinValue=330755118, ProviderName=Pabalan,Francisco, PracticeName=Pabalan Eye Center, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=30251, NPI=1801887971, submenu=Provider, TinValue=251737523, ProviderName=Walker, Brent, PracticeName=Brent E. Walker, MD, PC, menu=MIPS}</td>
+<td></td>
+<td>111</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=38309, NPI=1205858396, submenu=Provider, TinValue=953783011, ProviderName=Elander,Troy, PracticeName=Elander Eye Medical Group, Inc., menu=MIPS}</td>
+<td></td>
+<td>84</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=18952, NPI=1497730261, submenu=Provider, TinValue=351937038, ProviderName=Schwartz, Bruce, PracticeName=Advanced Ophthalmology of Michiana, menu=MIPS}</td>
+<td></td>
+<td>114</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=18952, NPI=1417992199, submenu=Provider, TinValue=351937038, ProviderName=Yoon, Eric, PracticeName=Advanced Ophthalmology of Michiana, menu=MIPS}</td>
+<td></td>
+<td>108</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=18952, NPI=1073598835, submenu=Provider, TinValue=351937038, ProviderName=Gerber,Steve, PracticeName=Advanced Ophthalmology of Michiana, menu=MIPS}</td>
+<td></td>
+<td>97</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=86473, NPI=1861421521, submenu=Provider, TinValue=472937525, ProviderName=Mathura,Jeevan R, PracticeName=Diabetic Eye & Macular Disease Specialists LLC, menu=MIPS}</td>
+<td></td>
+<td>93</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74937, NPI=1699770511, submenu=Provider, TinValue=330518262, ProviderName=Davies,James, PracticeName=James A Davies MD FACS, menu=MIPS}</td>
+<td></td>
+<td>71</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=116620, NPI=1366536047, submenu=Provider, TinValue=231877511, ProviderName=Pancher,Joseph, PracticeName=Mahoning Valley Eye Care Ctr, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=116620, NPI=1316929482, submenu=Provider, TinValue=231877511, ProviderName=NEWMAN,DONALD A, PracticeName=Mahoning Valley Eye Care Ctr, menu=MIPS}</td>
+<td></td>
+<td>92</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=116620, NPI=1811979958, submenu=Provider, TinValue=231877511, ProviderName=HOUSER,ANGELA G, PracticeName=Mahoning Valley Eye Care Ctr, menu=MIPS}</td>
+<td></td>
+<td>97</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=28689, NPI=1174674212, submenu=Provider, TinValue=593576311, ProviderName=Aziz Toppino, Mayssa, PracticeName=Eye Specialists of Florida, PA, menu=MIPS}</td>
+<td></td>
+<td>102</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=28689, NPI=1578675773, submenu=Provider, TinValue=593576311, ProviderName=Burry,Brian, PracticeName=Eye Specialists of Florida, PA, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=28689, NPI=1457671182, submenu=Provider, TinValue=593576311, ProviderName=Gupta, Jyoti, PracticeName=Eye Specialists of Florida, PA, menu=MIPS}</td>
+<td></td>
+<td>103</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=28689, NPI=1457671182, submenu=Provider, TinValue=593576311, ProviderName=Gupta, Jyoti, PracticeName=Eye Specialists of Florida, PA, menu=MIPS}</td>
+<td></td>
+<td>99</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=70530, NPI=1932196219, submenu=Provider, TinValue=364537586, ProviderName=BAI,GRACE S, PracticeName=Grace S. Bai, MD, menu=MIPS}</td>
+<td></td>
+<td>107</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=70530, NPI=1932196219, submenu=Provider, TinValue=364537586, ProviderName=BAI,GRACE S, PracticeName=Grace S. Bai, MD, menu=MIPS}</td>
+<td></td>
+<td>96</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=49454, NPI=1023075066, submenu=Provider, TinValue=059441760, ProviderName=Edelstein,David Joseph, PracticeName=Deborah Silberman MD, PC, menu=MIPS}</td>
+<td></td>
+<td>102</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=49454, NPI=1346352275, submenu=Provider, TinValue=113392480, ProviderName=Silberman,Deborah Anne, PracticeName=Deborah Silberman MD, PC, menu=MIPS}</td>
+<td></td>
+<td>106</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=38103, NPI=1841291903, submenu=Provider, TinValue=480817150, ProviderName=Dalla,Kumar P, PracticeName=Vitreo-Retinal Consultants and Surgeons, menu=MIPS}</td>
+<td></td>
+<td>99</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=38103, NPI=1548261696, submenu=Provider, TinValue=480817150, ProviderName=Weishaar,Paul D, PracticeName=Vitreo-Retinal Consultants and Surgeons, menu=MIPS}</td>
+<td></td>
+<td>115</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=38103, NPI=1730180886, submenu=Provider, TinValue=480817150, ProviderName=Varenhorst,Michael P, PracticeName=Vitreo-Retinal Consultants and Surgeons, menu=MIPS}</td>
+<td></td>
+<td>103</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=63845, NPI=1225124464, submenu=Provider, TinValue=205738724, ProviderName=Silk, Wesam, PracticeName=Silk Vision & Surgical Center, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=66040, NPI=1457311375, submenu=Provider, TinValue=541957254, ProviderName=STATHOS,JOHN A, PracticeName=Staunton Eye Clinic, PLC, menu=MIPS}</td>
+<td></td>
+<td>85</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33819, NPI=1528059573, submenu=Provider, TinValue=841452309, ProviderName=Lansing, Mary, PracticeName=Eldorado Retina Associates, PC, menu=MIPS}</td>
+<td></td>
+<td>99</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=353174, NPI=1205059169, submenu=Provider, TinValue=461498286, ProviderName=KELLY,STEPHEN J, PracticeName=Stephen J Kelly MD, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=318926, NPI=1790724045, submenu=Provider, TinValue=363729867, ProviderName=RESNICK,KENNETH, PracticeName=Retina Associates LTD, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=318926, NPI=1043519697, submenu=Provider, TinValue=363729867, ProviderName=Patel,Kevin H, PracticeName=Retina Associates LTD, menu=MIPS}</td>
+<td></td>
+<td>110</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=318926, NPI=1801834676, submenu=Provider, TinValue=363729867, ProviderName=WEINBERG,AARON B, PracticeName=Retina Associates LTD, menu=MIPS}</td>
+<td></td>
+<td>101</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=318926, NPI=1801834676, submenu=Provider, TinValue=363729867, ProviderName=WEINBERG,AARON B, PracticeName=Retina Associates LTD, menu=MIPS}</td>
+<td></td>
+<td>93</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=318926, NPI=1801834676, submenu=Provider, TinValue=363729867, ProviderName=WEINBERG,AARON B, PracticeName=Retina Associates LTD, menu=MIPS}</td>
+<td></td>
+<td>112</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=318926, NPI=1801834676, submenu=Provider, TinValue=363729867, ProviderName=WEINBERG,AARON B, PracticeName=Retina Associates LTD, menu=MIPS}</td>
+<td></td>
+<td>102</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=318926, NPI=1184679524, submenu=Provider, TinValue=363729867, ProviderName=Adenwalla,Mohamed K, PracticeName=Retina Associates LTD, menu=MIPS}</td>
+<td></td>
+<td>98</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=41921, NPI=1750329330, submenu=Provider, TinValue=161642922, ProviderName=SHENOY,PARNA, PracticeName=Caloosa Eye Center, PA, menu=MIPS}</td>
+<td></td>
+<td>85</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=64856, NPI=1912931445, submenu=Provider, TinValue=351681371, ProviderName=Troyer, Robert, PracticeName=Midwest Glaucoma Associates, menu=MIPS}</td>
+<td></td>
+<td>79</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=64856, NPI=1710911219, submenu=Provider, TinValue=351681371, ProviderName=Patel, Hemang, PracticeName=Midwest Glaucoma Associates, menu=MIPS}</td>
+<td></td>
+<td>83</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=46567, NPI=1861414856, submenu=Provider, TinValue=510503624, ProviderName=Braun,Maria M, PracticeName=Santa Monica EYe MEdical Group, menu=MIPS}</td>
+<td></td>
+<td>95</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=46567, NPI=1679596951, submenu=Provider, TinValue=510503624, ProviderName=Stelzner,Sadiqa K, PracticeName=Santa Monica EYe MEdical Group, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=94644, NPI=1841204997, submenu=Provider, TinValue=464305890, ProviderName=FUCIGNA,ROBERT J, PracticeName=Advanced Ophthalmology of Connecticut, menu=MIPS}</td>
+<td></td>
+<td>93</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=46541, NPI=1013195841, submenu=Provider, TinValue=454563204, ProviderName=Khoubian,Farzad Jacob, PracticeName=Advanced Eye Institute, menu=MIPS}</td>
+<td></td>
+<td>87</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=37768, NPI=1154375566, submenu=Provider, TinValue=731731944, ProviderName=Jeng,Shyun, PracticeName=Shyun Jeng MD, Inc., menu=MIPS}</td>
+<td></td>
+<td>87</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=69272, NPI=1114117769, submenu=Provider, TinValue=742740163, ProviderName=Jhaveri,Chirag, PracticeName=Retina Consultants of Austin, menu=MIPS}</td>
+<td></td>
+<td>84</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=69272, NPI=1013258730, submenu=Provider, TinValue=742740163, ProviderName=Chexal,Saradha, PracticeName=Retina Consultants of Austin, menu=MIPS}</td>
+<td></td>
+<td>99</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=69272, NPI=1649257312, submenu=Provider, TinValue=742740163, ProviderName=Berger,Brian, PracticeName=Retina Consultants of Austin, menu=MIPS}</td>
+<td></td>
+<td>88</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1396745105, submenu=Provider, TinValue=592009089, ProviderName=MAVROFRIDES,ELIAS C, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>98</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1427290360, submenu=Provider, TinValue=592009089, ProviderName=Thomas,Benjamin, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>100</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1841290657, submenu=Provider, TinValue=592009089, ProviderName=STAMAN,JAMES A, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>89</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1588855639, submenu=Provider, TinValue=592009089, ProviderName=STAMAN,JONATHAN A, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>87</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1487654117, submenu=Provider, TinValue=592009089, ProviderName=BARNARD,THOMAS A, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>93</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1730479650, submenu=Provider, TinValue=592009089, ProviderName=Jeroudi,Abdallah M, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>88</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1851533236, submenu=Provider, TinValue=592009089, ProviderName=Houston,Samuel K, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>94</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1932109659, submenu=Provider, TinValue=592009089, ProviderName=MORENO,RAUL J, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>91</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74934, NPI=1336303247, submenu=Provider, TinValue=592009089, ProviderName=Cunningham,Matthew Alexander, PracticeName=Florida Retina Institute, menu=MIPS}</td>
+<td></td>
+<td>99</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=67951, NPI=1548499049, submenu=Provider, TinValue=800902854, ProviderName=Allen,Antoni A, PracticeName=Tony Allen, MD, menu=MIPS}</td>
+<td></td>
+<td>74</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=38787, NPI=1376548875, submenu=Provider, TinValue=251521784, ProviderName=Nesper,James Alan, PracticeName=James A. Nesper, MD, menu=MIPS}</td>
+<td></td>
+<td>76</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=37735, NPI=1922012103, submenu=Provider, TinValue=300226531, ProviderName=Patel,Tushar, PracticeName=Lake Norman Ophthalmology, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=37735, NPI=1508870791, submenu=Provider, TinValue=300226531, ProviderName=Cohen,Donald, PracticeName=Lake Norman Ophthalmology, menu=MIPS}</td>
+<td></td>
+<td>90</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=75725, NPI=1538265632, submenu=Provider, TinValue=271390189, ProviderName=Nam,Sok H, PracticeName=Sok H Nam MD, menu=MIPS}</td>
+<td></td>
+<td>95</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=24749, NPI=1538200712, submenu=Provider, TinValue=310893289, ProviderName=Kunesh Part,Kristine, PracticeName=Kunesh Eye Center, Inc., menu=MIPS}</td>
+<td></td>
+<td>112</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=24749, NPI=1083792287, submenu=Provider, TinValue=310893289, ProviderName=Kunesh,John, PracticeName=Kunesh Eye Center, Inc., menu=MIPS}</td>
+<td></td>
+<td>95</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=24749, NPI=1962543231, submenu=Provider, TinValue=310893289, ProviderName=Kunesh,Michael, PracticeName=Kunesh Eye Center, Inc., menu=MIPS}</td>
+<td></td>
+<td>95</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=38100, NPI=1326019241, submenu=Provider, TinValue=261932672, ProviderName=Kotecha,Amy, PracticeName=Capital Vision, menu=MIPS}</td>
+<td></td>
+<td>88</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=45768, NPI=1144516121, submenu=Provider, TinValue=610322572, ProviderName=RAPOPORT,YUNA, PracticeName=Eastside Eye Surgeons, menu=MIPS}</td>
+<td></td>
+<td>85</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=45768, NPI=1548379431, submenu=Provider, TinValue=085445663, ProviderName=MANDELBAUM,SIDNEY H., PracticeName=Eastside Eye Surgeons, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=32033, NPI=1396748786, submenu=Provider, TinValue=201057056, ProviderName=Woods,Charles David, PracticeName=Charles D. Woods, MD, PC, menu=MIPS}</td>
+<td></td>
+<td>100</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=113592, NPI=1881621233, submenu=Provider, TinValue=272521818, ProviderName=SHAH,MANAN I, PracticeName=Manan I. Shah, MD, PC, menu=MIPS}</td>
+<td></td>
+<td>101</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=366606, NPI=1386860575, submenu=Provider, TinValue=453093169, ProviderName=Gordon, Marvin Isaac, PracticeName=Marvin I Gordon MD, menu=MIPS}</td>
+<td></td>
+<td>88</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60489, NPI=1396761102, submenu=Provider, TinValue=271404155, ProviderName=Thomas  MD, Joseph, PracticeName=Thomas eycare, menu=MIPS}</td>
+<td></td>
+<td>103</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=227848, NPI=1366578049, submenu=Provider, TinValue=330963888, ProviderName=KIM,TAE S, PracticeName=Cerritos Eye Medical Center Inc, menu=MIPS}</td>
+<td></td>
+<td>87</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33564, NPI=1508867482, submenu=Provider, TinValue=232156714, ProviderName=Moyer,Glenn E, PracticeName=Glenn E. Moyer, MD, menu=MIPS}</td>
+<td></td>
+<td>79</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=394368, NPI=1750355442, submenu=Provider, TinValue=742716293, ProviderName=Smith,Scott, PracticeName=Brazos Valley Eye Physicians, menu=MIPS}</td>
+<td></td>
+<td>83</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33641, NPI=1326042730, submenu=Provider, TinValue=161633405, ProviderName=Dale,Daniel L, PracticeName=Wisconsin Oculoplastics, menu=MIPS}</td>
+<td></td>
+<td>88</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=36591, NPI=1801877584, submenu=Provider, TinValue=271301727, ProviderName=Epstein,Andrew J, PracticeName=Northern Connecticut Eye Associates, menu=MIPS}</td>
+<td></td>
+<td>95</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=43839, NPI=1588601793, submenu=Provider, TinValue=133288357, ProviderName=Josephberg,Robert, PracticeName=Robert G. Josephberg, MD, menu=MIPS}</td>
+<td></td>
+<td>84</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=116622, NPI=1194725390, submenu=Provider, TinValue=201322026, ProviderName=MURTHY,RAGHU C, PracticeName=Retina Eye Specialists, menu=MIPS}</td>
+<td></td>
+<td>89</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60315, NPI=1831116847, submenu=Provider, TinValue=300117730, ProviderName=Moon, David, PracticeName=Central Washington Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>89</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60315, NPI=1841239399, submenu=Provider, TinValue=300117730, ProviderName=Li,Abel L, PracticeName=Central Washington Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>104</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=290370, NPI=1174781231, submenu=Provider, TinValue=814750772, ProviderName=Lauten,Wright Benjamin, PracticeName=Retina Specialists of Mississippi, PLLC, menu=MIPS}</td>
+<td></td>
+<td>84</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60216, NPI=1972611242, submenu=Provider, TinValue=062328216, ProviderName=Relland,Maureen A, PracticeName=Dr. Maureen A. Relland, menu=MIPS}</td>
+<td></td>
+<td>89</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=93145, NPI=1093708778, submenu=Provider, TinValue=753197565, ProviderName=GLAVAS,IOANNIS P, PracticeName=The Glavas Center, menu=MIPS}</td>
+<td></td>
+<td>88</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=96124, NPI=1215981584, submenu=Provider, TinValue=208355521, ProviderName=Voo,Irene, PracticeName=Irene Voo, MD, menu=MIPS}</td>
+<td></td>
+<td>246</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=45397, NPI=1699754606, submenu=Provider, TinValue=203787354, ProviderName=Nothnagel,Arnold, PracticeName=Ohio Retina Associates, Inc, menu=MIPS}</td>
+<td></td>
+<td>92</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33537, NPI=1083787972, submenu=Provider, TinValue=161546281, ProviderName=Beauvais,Denys A, PracticeName=Denys A. Beauvais, MD, menu=MIPS}</td>
+<td></td>
+<td>73</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33537, NPI=1770656670, submenu=Provider, TinValue=161546281, ProviderName=Nuyens,Monica M, PracticeName=Denys A. Beauvais, MD, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=336223, NPI=1952394330, submenu=Provider, TinValue=148447126, ProviderName=ELLYN,JOHN CHARLES, PracticeName=Eye Ctr of Charleston, menu=MIPS}</td>
+<td></td>
+<td>87</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=44479, NPI=1114914496, submenu=Provider, TinValue=521429237, ProviderName=Grochmal,Jay C, PracticeName=Jay C. Grochmal M.D. P.A., menu=MIPS}</td>
+<td></td>
+<td>86</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=41218, NPI=1376622704, submenu=Provider, TinValue=521722276, ProviderName=Murray,Arlene Louise, PracticeName=Arlene L. Murray, MD, PA, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74620, NPI=1538147061, submenu=Provider, TinValue=561175195, ProviderName=Branch,James David, PracticeName=James D. Branch, MD, menu=MIPS}</td>
+<td></td>
+<td>74</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122113, NPI=1598796930, submenu=Provider, TinValue=133079891, ProviderName=WOLF,ERIC J, PracticeName=Eric J Wolf MD FACS, menu=MIPS}</td>
+<td></td>
+<td>77</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122113, NPI=1386739324, submenu=Provider, TinValue=133079891, ProviderName=Wolf,Kenneth Joel, PracticeName=Eric J Wolf MD FACS, menu=MIPS}</td>
+<td></td>
+<td>75</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=43823, NPI=1558366682, submenu=Provider, TinValue=460979825, ProviderName=RAVIV,TAL, PracticeName=Eye Center of New York, menu=MIPS}</td>
+<td></td>
+<td>83</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122053, NPI=1487605580, submenu=Provider, TinValue=260604241, ProviderName=CHOUDHRI,SAIRA A, PracticeName=Eye Care Specialists of Florida, menu=MIPS}</td>
+<td></td>
+<td>88</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122053, NPI=1487605580, submenu=Provider, TinValue=260604241, ProviderName=CHOUDHRI,SAIRA A, PracticeName=Eye Care Specialists of Florida, menu=MIPS}</td>
+<td></td>
+<td>112</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60341, NPI=1467482984, submenu=Provider, TinValue=263300015, ProviderName=Ilyas, Waqas, PracticeName=Retina & Vitreous Consultants of Virginia P.C., menu=MIPS}</td>
+<td></td>
+<td>108</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=63857, NPI=1194775932, submenu=Provider, TinValue=522063352, ProviderName=Grundy,John, PracticeName=Eye Care & Surgical Center, menu=MIPS}</td>
+<td></td>
+<td>103</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=329734, NPI=1710996715, submenu=Provider, TinValue=812710226, ProviderName=Sadowski,Lawrence, PracticeName=Premier Vision Associates, menu=MIPS}</td>
+<td></td>
+<td>76</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=329734, NPI=1598908675, submenu=Provider, TinValue=812727102, ProviderName=Singh,Gaurav K, PracticeName=Premier Vision Associates, menu=MIPS}</td>
+<td></td>
+<td>73</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33946, NPI=1073550091, submenu=Provider, TinValue=460341670, ProviderName=Wright,Paul, PracticeName=Wright Vision Center, menu=MIPS}</td>
+<td></td>
+<td>85</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33946, NPI=1770524688, submenu=Provider, TinValue=460341670, ProviderName=Wolthuis,Terry, PracticeName=Wright Vision Center, menu=MIPS}</td>
+<td></td>
+<td>80</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33946, NPI=1164469185, submenu=Provider, TinValue=460341670, ProviderName=Mathews,Cris, PracticeName=Wright Vision Center, menu=MIPS}</td>
+<td></td>
+<td>92</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=65747, NPI=1861405243, submenu=Provider, TinValue=710598447, ProviderName=McFall,Whitney, PracticeName=Ozark Eye Center, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=65747, NPI=1689836652, submenu=Provider, TinValue=710598447, ProviderName=Booth, Allison, PracticeName=Ozark Eye Center, menu=MIPS}</td>
+<td></td>
+<td>79</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=65747, NPI=1659414662, submenu=Provider, TinValue=710598447, ProviderName=HILL,WILLIAM D, PracticeName=Ozark Eye Center, menu=MIPS}</td>
+<td></td>
+<td>80</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33638, NPI=1699774935, submenu=Provider, TinValue=721129999, ProviderName=Killeen,Suzette S, PracticeName=Westside Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>101</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33638, NPI=1588663819, submenu=Provider, TinValue=721129999, ProviderName=Leftwich,Owen B, PracticeName=Westside Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>82</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=311893, NPI=1780641878, submenu=Provider, TinValue=481210329, ProviderName=COHLMIA,SAM N, PracticeName=Sam N Cohlmia MD, menu=MIPS}</td>
+<td></td>
+<td>71</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122100, NPI=1508847930, submenu=Provider, TinValue=222579386, ProviderName=MANN,ERIC B, PracticeName=Eye Associates of North New Jersey PA, menu=MIPS}</td>
+<td></td>
+<td>76</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=92029, NPI=1467486753, submenu=Provider, TinValue=710602138, ProviderName=BRALEY,RICHARD E, PracticeName=Richard E Braley Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>81</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=122207, NPI=1114983186, submenu=Provider, TinValue=731323195, ProviderName=Suggs Old, Mark, PracticeName=Suggs Eye Center, menu=MIPS}</td>
+<td></td>
+<td>81</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=306304, NPI=1568471803, submenu=Provider, TinValue=812779766, ProviderName=PEDDADA,RAM R, PracticeName=Retina of Auburn & Metro-Columbus, menu=MIPS}</td>
+<td></td>
+<td>90</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74950, NPI=1447253331, submenu=Provider, TinValue=251467001, ProviderName=LALLY,PATRICK T, PracticeName=Patrick T Lally MD, menu=MIPS}</td>
+<td></td>
+<td>73</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=74950, NPI=1447253331, submenu=Provider, TinValue=251467001, ProviderName=LALLY,PATRICK T, PracticeName=Patrick T Lally MD, menu=MIPS}</td>
+<td></td>
+<td>73</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=95867, NPI=1740275775, submenu=Provider, TinValue=562286280, ProviderName=Jeffries,Robert E, PracticeName=Jeffries Eye Clinic, PA, menu=MIPS}</td>
+<td></td>
+<td>101</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=44494, NPI=1053401281, submenu=Provider, TinValue=202136493, ProviderName=Swami,Anil, PracticeName=Ophthalmic Consultants of Michigan, menu=MIPS}</td>
+<td></td>
+<td>81</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=75716, NPI=1417930900, submenu=Provider, TinValue=752883526, ProviderName=DoryMD,Laurie Boquet, PracticeName=Laurie B. Dory, MD, menu=MIPS}</td>
+<td></td>
+<td>81</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=103052, NPI=1245632371, submenu=Provider, TinValue=273800858, ProviderName=Amin,Pathik, PracticeName=Oak Cliff Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>84</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=103052, NPI=1417954819, submenu=Provider, TinValue=273800858, ProviderName=Fass,Oren, PracticeName=Oak Cliff Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>84</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=103052, NPI=1457606360, submenu=Provider, TinValue=273800858, ProviderName=Brodbaker,Elliott, PracticeName=Oak Cliff Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>86</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=50942, NPI=1871694877, submenu=Provider, TinValue=020630229, ProviderName=kavoussi,harold peter, PracticeName=Southern Tennessee Eye Specialists, menu=MIPS}</td>
+<td></td>
+<td>75</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=217795, NPI=1710973375, submenu=Provider, TinValue=760844309, ProviderName=gupta,seema, PracticeName=Rockville Eye Physicians, menu=MIPS}</td>
+<td></td>
+<td>71</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=217795, NPI=1619998036, submenu=Provider, TinValue=760844309, ProviderName=FRANK,LAWRENCE S, PracticeName=Rockville Eye Physicians, menu=MIPS}</td>
+<td></td>
+<td>73</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=174363, NPI=1285615369, submenu=Provider, TinValue=811505837, ProviderName=Griffin,Neil, PracticeName=Griffin Eye Center, PLLC, menu=MIPS}</td>
+<td></td>
+<td>85</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=38786, NPI=1861499303, submenu=Provider, TinValue=510389312, ProviderName=Kalin, Neil, PracticeName=Kalin Eye Associates, menu=MIPS}</td>
+<td></td>
+<td>73</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=282905, NPI=1275698516, submenu=Provider, TinValue=202264280, ProviderName=SEGAL,WILLIAM ABE, PracticeName=William Abe Segal MD, menu=MIPS}</td>
+<td></td>
+<td>69</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=282905, NPI=1497060362, submenu=Provider, TinValue=202264280, ProviderName=LAY,MARC, PracticeName=William Abe Segal MD, menu=MIPS}</td>
+<td></td>
+<td>64</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60307, NPI=1326021056, submenu=Provider, TinValue=060968937, ProviderName=Ruddat,Michael, PracticeName=Retina Consultants, P.C., menu=MIPS}</td>
+<td></td>
+<td>76</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60307, NPI=1992702526, submenu=Provider, TinValue=060968937, ProviderName=Neuwirth,Jerry, PracticeName=Retina Consultants, P.C., menu=MIPS}</td>
+<td></td>
+<td>85</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60307, NPI=1457334195, submenu=Provider, TinValue=060968937, ProviderName=Stoj,Marion, PracticeName=Retina Consultants, P.C., menu=MIPS}</td>
+<td></td>
+<td>98</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60307, NPI=1376541011, submenu=Provider, TinValue=060968937, ProviderName=Judson,Peter, PracticeName=Retina Consultants, P.C., menu=MIPS}</td>
+<td></td>
+<td>102</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60307, NPI=1205833878, submenu=Provider, TinValue=060968937, ProviderName=Packer,Andrew, PracticeName=Retina Consultants, P.C., menu=MIPS}</td>
+<td></td>
+<td>87</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60307, NPI=1679757868, submenu=Provider, TinValue=060968937, ProviderName=Margolis,Ron, PracticeName=Retina Consultants, P.C., menu=MIPS}</td>
+<td></td>
+<td>93</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=214139, NPI=1508936840, submenu=Provider, TinValue=751982274, ProviderName=TURNER,THOMAS C, PracticeName=Turner Eye Clinic, menu=MIPS}</td>
+<td></td>
+<td>94</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=238898, NPI=1376643841, submenu=Provider, TinValue=292506614, ProviderName=Magness,Thomas, PracticeName=Thomas B. Magness, MD, menu=MIPS}</td>
+<td></td>
+<td>81</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33841, NPI=1578573903, submenu=Provider, TinValue=960001716, ProviderName=Prado,Robert, PracticeName=Seventh-day Adventist Church Guam Clinic, menu=MIPS}</td>
+<td></td>
+<td>76</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=33841, NPI=1760555254, submenu=Provider, TinValue=960001716, ProviderName=Wresch,Robert, PracticeName=Seventh-day Adventist Church Guam Clinic, menu=MIPS}</td>
+<td></td>
+<td>81</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=60416, NPI=1669443370, submenu=Provider, TinValue=751586380, ProviderName=Mack,Leo W, PracticeName=Leo W. Mack, Jr., MD, PA, menu=MIPS}</td>
+<td></td>
+<td>72</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=45828, NPI=1790856144, submenu=Provider, TinValue=273674302, ProviderName=Kazi,Abdul Ahad, PracticeName=Kazi Ophthalmology, menu=MIPS}</td>
+<td></td>
+<td>94</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=45828, NPI=1790856144, submenu=Provider, TinValue=273674302, ProviderName=Kazi,Abdul Ahad, PracticeName=Kazi Ophthalmology, menu=MIPS}</td>
+<td></td>
+<td>84</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=58376, NPI=1790193399, submenu=Provider, TinValue=592136412, ProviderName=SPALDING,CHELSEA, PracticeName=Community Eye Center, Inc., menu=MIPS}</td>
+<td></td>
+<td>88</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+<tr>
+<td title='testcases.mips.TC_Stale.testBlankPassword()'><b>testBlankPassword</b><br>Test class: testcases.mips.TC_Stale<br>Parameters: {PracticeID=58376, NPI=1851361869, submenu=Provider, TinValue=592136412, ProviderName=Mishra,Prabin, PracticeName=Community Eye Center, Inc., menu=MIPS}</td>
+<td></td>
+<td>78</td>
+<td>testcases.mips.TC_Stale@2a54a73f</td></tr>
+</table><p>
+</body>
+</html>

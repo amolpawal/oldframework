@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AAOTestSuite">
+
+	<test name="TC_Defaultlogin">
+		<classes>
+			<class name="testcases.login.TC_DefaultLogin" />
+		</classes>
+	</test>
+<!-- 	<test name="TC_PracticeAllProvidersPopUpViewR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.rolling.TC_PracticeAllProvidersPopUpViewR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+<!-- 	<test name="TC_PracticeAllLocationPopUpCountNR"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.practice.practiceAll.location.nonRolling.TC_PracticeAllLocationPopUpCountNR" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 	<test name="Check Copyright year"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.measureset.TC_VerifyCopyRightYear" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+
+<!-- 		<test name="Check Copyright tabs Available "> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.measureset.TC_VerifyCopyRightTabs" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+<!-- 			<test name="Check measure set selection "> -->
+<!-- 		<classes> -->
+<!-- 			<class name="testcases.dashboard.measureset.TC_SelectingMeasureSet" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+	
+	
+
+
+
+	
+	</suite>
